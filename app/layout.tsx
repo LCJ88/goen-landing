@@ -4,7 +4,7 @@ import './globals.css';
 const description = 'One scan to swap everything. One place to remember everyone. Join the goen beta.';
 
 export const metadata: Metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://goen.vercel.app'),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || 'https://goen-landing.vercel.app'),
   title: 'goen — Get more out of your relationships',
   description,
   openGraph: {
